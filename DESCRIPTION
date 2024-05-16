@@ -1,0 +1,11 @@
+Package: myGOterms
+Title: Functions to Speed Up GO Term Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jorge", "Vargas Centeno", , "jorge-vargas2000@hotmail.com", role = c("aut", "cre"))
+Description: The GOTermAnalysis function facilitates GO term enrichment analysis on a dataset of differentially expressed genes, identifying enriched biological processes for either upregulated or downregulated genes based on specified log fold change and adjusted p-value thresholds, while the cytogeneticbandToEntrex function maps a specified cytogenetic band to corresponding Entrez gene IDs by filtering a list of genes based on their chromosomal band annotations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: methods
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
