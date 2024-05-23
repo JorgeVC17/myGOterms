@@ -3,7 +3,7 @@
 #' Perform GO term enrichment analysis based on differential gene expression results.
 #'
 #' @param dge_results A data frame containing differential gene expression results.
-#' @param upregulated Logical indicating whether to analyze upregulated genes.
+#' @param upregulated Logical indicating whether to analyze upregulated or downregulated genes.
 #' @param lfc_value Log fold change threshold for differential expression.
 #' @param padj_value Adjusted p-value threshold for differential expression.
 #' @return A summary of the GO term enrichment analysis.
